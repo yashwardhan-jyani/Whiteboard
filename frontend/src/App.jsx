@@ -7,7 +7,7 @@ import Sidebar from './components/Sidebar.jsx';
 import Room from './components/Room.jsx';
 import "./index.css";
 
-const socket = io("http://localhost:3000");
+const socket = io("https://whiteboard-ywzk.onrender.com");
 
 function App() {
   const [userNo, setUserNo] = useState(0);
